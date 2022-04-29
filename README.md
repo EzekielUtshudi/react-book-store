@@ -8,9 +8,9 @@
 - Redux
 - React Router
 
-## Getting Started
+# Getting Started with Create React App
 
-To get a local copy up and running follow these simple example steps.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Authors
 
@@ -20,10 +20,6 @@ To get a local copy up and running follow these simple example steps.
 - Twitter: [@UtshudiEzekiel](https://twitter.com/UtshudiEzekiel)
 - LinkedIn: [@UtshudiEzekiel](https://www.linkedin.com/in/ezekiel-utshudi-195782162/)
 
-
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
