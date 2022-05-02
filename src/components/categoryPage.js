@@ -3,7 +3,7 @@ import React from 'react';
 function CategoryPage() {
   return (
     <div>
-      <button type="button">Check status</button>
+      <h1>Under Development!!</h1>
     </div>
   );
 }

@@ -31,7 +31,7 @@ function AddNewBook() {
 
   return (
     <form className="add-book-section" onSubmit={submitBookToStore}>
-      <h1>ADD NEW BOOK</h1>
+      <h1>ADD A NEW BOOK</h1>
       <input
         type="text"
         placeholder="Book title"
@@ -40,10 +40,12 @@ function AddNewBook() {
         required
       />
       <select placeholder="categories" name="category" onChange={onChange} required>
-        <option>Category</option>
+        <option>Books-Category</option>
+        <option value="Fantasy">Fantasy</option>
         <option value="Romance">Romance</option>
         <option value="Documentary">Documentary</option>
         <option value="Fiction">Fiction</option>
+        <option value="History">History</option>
         <option value="Crime">Crime</option>
       </select>
       <button type="submit" onClick={submitBookToStore}>Add Book</button>
