@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import BookItem from './bookItem';
+import BookItem from './BookItem';
 
 function Books({ bookList }) {
   return (
@@ -15,8 +15,6 @@ function Books({ bookList }) {
 Books.propTypes = {
   bookList: PropTypes.arrayOf(PropTypes.shape(
     {
-      booktitle: PropTypes.string.isRequired,
-      author: PropTypes.string.isRequired,
       id: PropTypes.string.isRequired,
     },
   )).isRequired,
