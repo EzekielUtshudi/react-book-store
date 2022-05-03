@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import { BrowserRouter as Router } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import store from './redux/configureStore';
-import Bookstore from './components/BookStore';
+import Bookstore from './components/bookStore';
 
 ReactDOM.render(
   <React.StrictMode>
