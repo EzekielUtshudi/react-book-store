@@ -1,7 +1,7 @@
 import React from 'react';
 import { v4 as uuidv4 } from 'uuid';
-import AddNewBook from './addNewBook';
-import Books from './books';
+import AddNewBook from './AddNewBook';
+import Books from './Books';
 
 function BooksPage() {
   const bookList = [
