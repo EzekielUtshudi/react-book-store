@@ -1,8 +1,8 @@
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
-import BooksPage from './BooksPage.js';
-import CategoryPage from './CategoryPage.js';
-import Navbar from './Navbar.js';
+import BooksPage from './BooksPage';
+import CategoryPage from './CategoryPage';
+import Navbar from './Navbar';
 import '../index.css';
 
 function Bookstore() {
